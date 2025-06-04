@@ -163,17 +163,6 @@ footer > div:last-of-type p {
 
 }
 
-.Accueil > article:first-of-type div:first-of-type p a{
-    background-color: white;
-    padding: 0;
-    margin-right:0 ;
-    color: blue;
-    text-decoration:underline;
-}
-
-.Accueil > article:first-of-type div:first-of-type p a:hover{
-    background-color: white;
-}
 
 .Accueil > article:first-of-type div:first-of-type a:hover{
 
@@ -236,7 +225,7 @@ footer > div:last-of-type p {
 
 .Accueil section article p{
     padding: 0 2em;
-    height: 10em;
+    height: 1em;
 }   
 
 .Accueil > article:nth-of-type(2){
@@ -291,6 +280,18 @@ footer > div:last-of-type p {
 
 .Accueil button:hover{
     background-color: #677961;
+}
+
+.Accueil > article:first-of-type div:first-of-type p a{
+    background-color: white;
+    padding: 0;
+    margin-right:0 ;
+    color: blue;
+    text-decoration:underline;
+}
+
+.Accueil > article:first-of-type div:first-of-type p a:hover{
+    background-color: white;
 }
 
 /********************************************************************************************************************************************** 
