@@ -1,0 +1,424 @@
+html {
+    scroll-behavior:smooth;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+header{
+    background-color: #4F5D4A;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;   
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7em;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li{
+    padding: 3em;
+}
+
+header ul li span{
+    background-color: white;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.contact{
+    color: #4F5D4A;
+    font-weight: bold;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    margin: 0;
+    background-color: #4F5D4A;
+    height: 25em;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div{
+    display: flex;
+}
+
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div > div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+footer img{
+    width: 10%;
+    padding-right: 1em;
+    ;
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+footer p:last-of-type{
+    padding-top: 1em;
+} 
+
+footer > div:last-of-type {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+footer > div:last-of-type a {
+    width: 2em; 
+    height: auto;
+}
+
+
+footer > div:last-of-type img {
+    width: 100%; 
+    height: auto;
+}
+
+footer > div:last-of-type p {
+    padding-left: 1em;
+}
+
+.Accueil a:hover{
+    background-color: #677961;
+}
+
+.Accueil > article:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.Accueil > article:first-of-type div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Accueil > article:first-of-type div:first-of-type div{
+    display: flex;
+    flex-direction: row;
+}
+
+.Accueil > article:first-of-type div:first-of-type p{
+    padding: 1em;
+}
+
+
+.Accueil > article:first-of-type div:first-of-type a{
+    background-color: #4F5D4A;
+    padding: 1em;
+    margin-right:1em ;
+    color: white;
+    text-decoration: none;
+
+}
+
+.Accueil > article:first-of-type div:first-of-type a:hover{
+
+    background-color: #677961;
+
+}
+
+.Accueil > article:first-of-type div:last-of-type img{
+    border-radius: 100%;
+    padding-right: 3em;
+    width: 25em;
+    height: 25em;
+    object-fit: cover;
+    padding-left: 2em;
+}
+
+.Accueil section {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    flex-wrap: wrap;
+}
+
+.Accueil section article {
+    padding-top: 0 ;
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 25em;
+    height: auto;
+    margin-bottom: 5em;
+}
+
+
+.Accueil section article h2,
+.Accueil section article a
+{
+    background-color: #4F5D4A;
+    color: white;
+    padding: 1em;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.Accueil section article h2{
+    width: 88%;
+    margin-top: 0;
+}
+
+
+.Accueil section article a{
+    border-radius: 20px;
+    align-self: flex-end;
+    margin: 1em;
+}
+
+
+.Accueil section article p{
+    padding: 0 2em;
+}   
+
+.Accueil > article:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    padding : 1em;
+    background-color: #E4E4E4;
+    border-radius: 50px;
+    width: 50em;
+    margin: auto;
+    margin-bottom: 5em;
+}
+
+.Accueil > article:nth-of-type(2) form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 1em;
+} 
+
+.Accueil > article:nth-of-type(2) form p {
+    margin:0.5em 0;
+} 
+
+.Accueil > article:nth-of-type(2) button {
+    background-color: #4F5D4A;
+    color: white;
+    margin: auto;
+    margin-top: 1em;
+    border: 0;
+    padding: 1em;
+    width: 30%;
+}
+
+.champ_message{
+    height: 10em;
+}
+
+.Accueil > article:nth-of-type(2) textarea,
+.Accueil > article:nth-of-type(2) input {
+    padding: 1em;
+    background-color: #4F5D4A;
+    border: 0;
+    border-radius:10px ;
+    color: white;
+    line-height: 1.5;
+    vertical-align: top;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    resize: none;
+}
+
+.Accueil button:hover{
+    background-color: #677961;
+}
+
+/********************************************************************************************************************************************** 
+Compétence 1
+***********************************************************************************************************************************************/
+
+.competence a:hover{
+    background-color: #677961;
+}
+
+.competence > article:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.competence > article:first-of-type div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.competence > article:first-of-type div:first-of-type div{
+    display: flex;
+    flex-direction: row;
+}
+
+.competence > article:first-of-type div:first-of-type p{
+    padding: 1em;
+}
+
+
+.competence > article:first-of-type div:first-of-type a{
+    background-color: #4F5D4A;
+    padding: 1em;
+    margin-right:1em ;
+    color: white;
+    text-decoration: none;
+    width: 10em;
+    text-align: center;
+
+}
+
+.competence > article:first-of-type div:first-of-type a:hover{
+
+    background-color: #677961;
+
+}
+
+.competence > article:first-of-type div:last-of-type img{
+    border-radius: 100%;
+    padding-right: 3em;
+    width: 25em;
+    height: 25em;
+    object-fit: cover;
+    padding-left: 2em;
+}
+
+.competence > article:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.competence > article:nth-of-type(2) div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.competence > article div:first-of-type p{
+    padding: 2em;
+}
+
+.competence > article div:last-of-type img{
+    width: 35em;
+    height: 35em;
+    object-fit: cover;
+    margin-left: 1em;
+}
+
+.competence > article:nth-of-type(3) div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.competence > article:nth-of-type(3) div:last-of-type img{
+    width: 25em;
+    height: 25em;
+    object-fit: cover;
+    margin-right: 2em ;
+}
+
+.competence section {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    flex-wrap: wrap;
+}
+
+.competence section article {
+    padding-top: 0 ;
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 25em;
+    height: auto;
+    margin-bottom: 5em;
+}
+
+
+.competence section article h2{
+    background-color: #4F5D4A;
+    color: white;
+    padding: 1em;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.competence section article h2{
+    width: 88%;
+    margin-top: 0;
+}
+
+.competence section article img{
+    width: 15em;
+    height: 15em;
+    object-fit: contain;
+    margin: 1em;
+}
+
+#tableau{
+    object-fit: contain;
+}
