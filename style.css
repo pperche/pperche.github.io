@@ -143,6 +143,7 @@ footer > div:last-of-type p {
     justify-content: center;
 }
 
+
 .Accueil > article:first-of-type div:first-of-type div{
     display: flex;
     flex-direction: row;
@@ -160,6 +161,18 @@ footer > div:last-of-type p {
     color: white;
     text-decoration: none;
 
+}
+
+.Accueil > article:first-of-type div:first-of-type p a{
+    background-color: white;
+    padding: 0;
+    margin-right:0 ;
+    color: blue;
+    text-decoration:underline;
+}
+
+.Accueil > article:first-of-type div:first-of-type p a:hover{
+    background-color: white;
 }
 
 .Accueil > article:first-of-type div:first-of-type a:hover{
@@ -223,6 +236,7 @@ footer > div:last-of-type p {
 
 .Accueil section article p{
     padding: 0 2em;
+    height: 10em;
 }   
 
 .Accueil > article:nth-of-type(2){
@@ -358,7 +372,6 @@ Compétence 1
 
 .competence > article div:last-of-type img{
     width: 35em;
-    height: 35em;
     object-fit: cover;
     margin-left: 1em;
 }
