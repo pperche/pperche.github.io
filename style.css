@@ -295,8 +295,54 @@ footer > div:last-of-type p {
 }
 
 /********************************************************************************************************************************************** 
-Compétence 1
+Compétence 
 ***********************************************************************************************************************************************/
+
+/* Styles des ronds */
+.circle {
+  width: 3em;
+  height: 3em;
+  background-color: #677961;
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Rond gauche */
+.arrow-left {
+  left: 1em; /* collé au bord gauche avec un peu de marge */
+}
+
+/* Rond droit */
+.arrow-right {
+  right: 1em; /* collé au bord droit avec un peu de marge */
+}
+
+/* Flèche gauche */
+.arrow-left::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%) rotate(135deg);
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  padding: 0.4em;
+}
+
+/* Flèche droite */
+.arrow-right::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  padding: 0.4em;
+}
 
 .competence a:hover{
     background-color: #677961;
